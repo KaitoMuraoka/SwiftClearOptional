@@ -19,3 +19,6 @@ let resultFloat = optionalFloat.orZero
 let resltBool = optionalBool.orFalse
 let resultDate = optionalDate.orToday
 ```
+
+## License
+[MIT](./LICENSE.txt)
