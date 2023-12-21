@@ -11,4 +11,8 @@ public extension Optional where Wrapped == Date {
     var orToday: Date {
         self ?? Date()
     }
+
+    func or(_ defaultDate: Date) -> Date {
+        self ?? defaultDate
+    }
 }
