@@ -1,3 +1,5 @@
+<img src="https://img.shields.io/badge/swift-5.9.2-orange.svg?style=flat" alt="Swift 5.9.2 Compatible">
+
 # SwiftClearOptional
 
 This library is designed to make the Nil-Coalescing Operator more readable, almost like a sentence. For instance, consider Swift code written using the Nil-Coalescing Operator as follows:
