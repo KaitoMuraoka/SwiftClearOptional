@@ -22,5 +22,17 @@ let resltBool = optionalBool.orFalse
 let resultDate = optionalDate.orToday
 ```
 
+URLs may also use forced unwrapping as follos:
+
+```Swift
+let url = URL(string: urlString)!
+```
+
+If you set a 404 URL and return a default value, you can write the following.
+
+```Swift
+let url = URL(string: urlString).or404
+```
+
 ## License
 [MIT](./LICENSE.txt)
